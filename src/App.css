@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.input-group {
+  border-radius: 7px;
+}
+
+.textarea_div {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.copybutton {
+  align-self: center;
+  position: absolute;
+  right: 5px;
+}
+
+.copy_img {
+  display: flex;
+  padding: 2px;
+  background: none;
+  border: none;
+}
+
+.form-control {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.d-flex {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.d-flex-parent {
+  margin: auto;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_img {
+  border: 3px solid black;
+  border-radius: 100px;
+}
